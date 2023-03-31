@@ -1,0 +1,59 @@
+@import url(./app.css);
+.contact__header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    background: #eee;
+}
+
+form{
+    max-width: 600px;
+    margin: 3rem auto;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    background: #131313;
+    padding: .3rem 1rem;
+    color: var(--white);
+    width: 180px;
+    margin: auto;
+    border-radius: 30px;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    margin-bottom: 20px;
+}
+.errormessage{
+    position: relative;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background: rgba(151, 28, 28, 0.808);
+    color: var(--white);
+    text-transform: capitalize;
+    z-index: 10;
+    display: none;
+}
